@@ -26,7 +26,7 @@ Gaupol jest edytorem tekstowych podpisów dla filmów. Jest jeszcze w
 pocz±tkowej fazie rozwoju i nie zawiera ¿adnych zaawansowanych opcji.
 Zamiarem jest stworzenie prostego, ale potê¿nego edytora podpisów dla
 wielu formatów podpisów. Aktualnie Gaupol jest u¿yteczny do konwersji
-miêdzy formatami, t³umaczeñ i rêcznego edytowania.
+miêdzy formatami, t³umaczeñ i rêcznego modyfikowania.
 
 %prep
 %setup -q
