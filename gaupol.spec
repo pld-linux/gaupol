@@ -6,7 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://download.gna.org/gaupol/0.1/%{name}-%{version}.tar.gz
-# Source0-md5:	890a476b54e13bfd4ab21440c6a5a8e2
+# Source0-md5:	7764b7827597c92c08a09484c405a5a9
 URL:		http://home.gna.org/gaupol/
 BuildRequires:	python-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
