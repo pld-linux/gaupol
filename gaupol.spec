@@ -8,7 +8,10 @@ Group:		X11/Applications
 Source0:	http://download.gna.org/gaupol/0.1/%{name}-%{version}.tar.gz
 # Source0-md5:	7764b7827597c92c08a09484c405a5a9
 URL:		http://home.gna.org/gaupol/
-BuildRequires:	python-devel
+BuildRequires:	python-devel >= 1:2.4
+Requires:	python-pygtk-glade >= 1:2.6.0
+%pyrequires_eq	python-modules
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -39,7 +42,7 @@ python setup.py install \
 	--root $RPM_BUILD_ROOT \
 	--prefix %{_prefix}
 
-find $RPM_BUILD_ROOT%{py_sitescriptdir}/gaupol/ -name '*.py' -exec rm -f \{\} \;
+find $RPM_BUILD_ROOT%{py_sitescriptdir}/gaupol -name '*.py' -exec rm -f {} \;
 
 %find_lang %{name}
 
