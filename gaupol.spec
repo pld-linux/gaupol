@@ -1,12 +1,12 @@
 Summary:	Subtitle editor for text-based subtitles
 Summary(pl):	Edytor tekstowych podpisów dla filmów
 Name:		gaupol
-Version:	0.5.0
+Version:	0.7.0
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Source0:	http://download.gna.org/gaupol/0.5/%{name}-%{version}.tar.gz
-# Source0-md5:	6b4386c76c1756b035306c0b5c179602
+Source0:	http://download.gna.org/gaupol/0.7/%{name}-%{version}.tar.gz
+# Source0-md5:	120150a5ea976c6699daaa945384bb47
 URL:		http://home.gna.org/gaupol/
 BuildRequires:	gettext-devel
 BuildRequires:	intltool
