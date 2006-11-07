@@ -59,5 +59,5 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/gaupol
 %{py_sitescriptdir}/gaupol
-%{_desktopdir}/*
+%{_desktopdir}/*.desktop
 %{_iconsdir}/hicolor/*/apps/*
