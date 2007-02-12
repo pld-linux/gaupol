@@ -1,5 +1,5 @@
 Summary:	Subtitle editor for text-based subtitles
-Summary(pl):	Edytor tekstowych podpisów dla filmów
+Summary(pl.UTF-8):   Edytor tekstowych podpisÃ³w dla filmÃ³w
 Name:		gaupol
 Version:	0.7.1
 Release:	1
@@ -25,12 +25,12 @@ features. The aim is to make a simple, but powerful, subtitle editor
 for multiple subtitle formats. Currently Gaupol is useful for
 converting between different formats, translating and manual editing.
 
-%description -l pl
-Gaupol jest edytorem tekstowych podpisów dla filmów. Jest jeszcze w
-pocz±tkowej fazie rozwoju i nie zawiera ¿adnych zaawansowanych opcji.
-Zamiarem jest stworzenie prostego, ale potê¿nego edytora podpisów dla
-wielu formatów podpisów. Aktualnie Gaupol jest u¿yteczny do konwersji
-miêdzy formatami, t³umaczeñ i rêcznego modyfikowania.
+%description -l pl.UTF-8
+Gaupol jest edytorem tekstowych podpisÃ³w dla filmÃ³w. Jest jeszcze w
+poczÄ…tkowej fazie rozwoju i nie zawiera Å¼adnych zaawansowanych opcji.
+Zamiarem jest stworzenie prostego, ale potÄ™Å¼nego edytora podpisÃ³w dla
+wielu formatÃ³w podpisÃ³w. Aktualnie Gaupol jest uÅ¼yteczny do konwersji
+miÄ™dzy formatami, tÅ‚umaczeÅ„ i rÄ™cznego modyfikowania.
 
 %prep
 %setup -q
