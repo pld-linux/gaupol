@@ -1,5 +1,5 @@
 Summary:	Subtitle editor for text-based subtitles
-Summary(pl.UTF-8):   Edytor tekstowych podpisów dla filmów
+Summary(pl.UTF-8):	Edytor tekstowych podpisów dla filmów
 Name:		gaupol
 Version:	0.7.1
 Release:	1
