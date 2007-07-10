@@ -57,9 +57,9 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README TODO
 %attr(755,root,root) %{_bindir}/*
-%{_datadir}/gaupol
-%{py_sitescriptdir}/gaupol
-%{_desktopdir}/*.desktop
-%{_iconsdir}/hicolor/*/apps/*
-%{_mandir}/man1/*
-%{py_sitedir}/*
+%{_datadir}/%{name}
+%{py_sitescriptdir}/%{name}
+%{_desktopdir}/%{name}.desktop
+%{_iconsdir}/hicolor/*/apps/%{name}*
+%{_mandir}/man1/%{name}*
+%{py_sitescriptdir}/%{name}*.egg-info
