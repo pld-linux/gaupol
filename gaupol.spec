@@ -10,7 +10,7 @@ Source0:	http://download.gna.org/gaupol/0.8/%{name}-%{version}.tar.gz
 URL:		http://home.gna.org/gaupol/
 BuildRequires:	gettext-devel
 BuildRequires:	intltool
-BuildRequires:	python-devel >= 1:2.4
+BuildRequires:	python-devel >= 1:2.5
 BuildRequires:	rpm-pythonprov
 Requires:	python-pygtk-glade >= 2:2.8.0
 %pyrequires_eq	python-modules
