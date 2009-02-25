@@ -2,7 +2,7 @@ Summary:	Subtitle editor for text-based subtitles
 Summary(pl.UTF-8):	Edytor tekstowych podpisów dla filmów
 Name:		gaupol
 Version:	0.13.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://download.gna.org/gaupol/0.13/%{name}-%{version}.tar.gz
@@ -14,6 +14,7 @@ BuildRequires:	python-devel >= 1:2.5
 BuildRequires:	rpm-pythonprov
 Requires:	python-pygtk-glade >= 2:2.12
 %pyrequires_eq	python-modules
+Suggests:	python-chardet >= 1.0.1
 Suggests:	python-pyenchant >= 1.1.3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
