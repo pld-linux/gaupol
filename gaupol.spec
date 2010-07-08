@@ -3,7 +3,7 @@ Summary:	Subtitle editor for text-based subtitles
 Summary(pl.UTF-8):	Edytor tekstowych podpisów dla filmów
 Name:		gaupol
 Version:	%{_major}.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://download.gna.org/gaupol/%{_major}/%{name}-%{version}.tar.gz
@@ -48,7 +48,7 @@ python setup.py install \
 	--root $RPM_BUILD_ROOT \
 	--prefix %{_prefix}
 
-find $RPM_BUILD_ROOT%{py_sitescriptdir}/gaupol -name '*.py' -exec rm -f {} \;
+#find $RPM_BUILD_ROOT%{py_sitescriptdir}/gaupol -name '*.py' -exec rm -f {} \;
 
 %find_lang %{name}
 
