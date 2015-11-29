@@ -9,6 +9,7 @@ Group:		X11/Applications
 Source0:	http://download.gna.org/gaupol/%{_major}/%{name}-%{version}.tar.gz
 # Source0-md5:	d5ca4714a2b4f1386d860a2d79fba5f7
 URL:		http://home.gna.org/gaupol/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	gettext-tools
 BuildRequires:	intltool
 BuildRequires:	python-devel >= 1:2.5
