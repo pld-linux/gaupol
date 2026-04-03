@@ -3,7 +3,7 @@ Summary:	Subtitle editor for text-based subtitles
 Summary(pl.UTF-8):	Edytor tekstowych podpisów dla filmów
 Name:		gaupol
 Version:	%{_major}.1
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications
 Source0:	http://download.gna.org/gaupol/%{_major}/%{name}-%{version}.tar.gz
